@@ -1,0 +1,40 @@
+.firstscreen {
+  background-color: #363636;
+  color: #ffffff;
+  background-image: url(../img/bg/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 70px;
+  padding-top: 130px;
+
+  .title {
+    color: #ffffff;
+    font-size: 44px;
+    line-height: 120%;
+    margin: 0;
+    margin-bottom: 40px;
+    max-width: 560px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @media (max-width: 700px) {
+      font-size: 36px;
+    }
+
+    @media (max-width: 450px) {
+      font-size: 28px;
+    }
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  .list-with-icons {
+    margin-bottom: 100px;
+
+    @media (max-width: 700px) {
+      margin-bottom: 75px;
+    }
+  }
+}

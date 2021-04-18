@@ -1,0 +1,56 @@
+.list-with-icons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 40px;
+
+  @media (max-width: 950px) {
+    grid-template-columns: auto auto;
+    gap: 60px 20px;
+  }
+
+  @media (max-width: 700px) {
+    grid-template-columns: auto;
+    gap: 35px 0;
+  }
+}
+
+.list-with-icons__item {
+  padding-left: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/icons/1.png");
+    left: 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @media (max-width: 700px) {
+      width: 30px;
+    height: 30px;
+    }
+  }
+
+  &--two::before {
+    background-image: url("../img/icons/2.png");
+  }
+
+  &--three::before {
+    background-image: url("../img/icons/3.png");
+  }
+
+  &--four::before {
+    background-image: url("../img/icons/4.png");
+  }
+}
+
+

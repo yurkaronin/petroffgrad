@@ -1,0 +1,19 @@
+/* кнопки */
+.button {
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  border-radius: 27px;
+  border: 1px solid #00a5e4;
+  background-color: #00a5e4;
+  box-shadow: 0 4px 21px rgba(0, 165, 228, 0.75);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 120%;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 18px 40px 15px;
+  font-family: 'Rubik', sans-serif;
+}
